@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navSec {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #c2c2c24a;
+    border-radius: 5px;
+}
+.firstIcon{
+    padding-left: 10px;
+}
+.icon{
+   padding-right:5px;
+}
+.navbar li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar li:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.navbar:hover li{
+
+}
+.main {
+    margin-top: 10px;
+    background-color: #c2c2c24a;
+    height: 900px;
+}
